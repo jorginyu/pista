@@ -1,0 +1,58 @@
+/*https://colorhunt.co/palette/163991*/
+
+body {
+    background-color: #2d132c;
+    font-family: 'Jura', sans-serif;
+    color: #c72c41;
+}
+
+body::-webkit-scrollbar {
+    width: 0.7em;
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 7px;
+    background-color: black;
+    outline: 1px solid slategrey;
+}
+
+div#navigation {
+    position: fixed;
+    width: 100%;
+    bottom: 0%;
+    left: 0%;
+    background-color: rgba(128, 19, 53, 0.212);
+    font-size: 24px;
+    padding: 25px;
+    z-index: 1;
+}
+
+svg.navigationLink {
+    align-self: center;
+    cursor: pointer;
+    color: #c72c41;
+    border-radius: 100px;
+}
+
+div#alert-session {
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    position: static;
+    background-color: rgba(128, 19, 53, 0.472);
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+a#logInBtn {
+    color: #ee4540;
+}
+
+fieldset.field7 {
+    background-color: white;
+    border-radius: 7px;
+    padding: 25px;
+}
